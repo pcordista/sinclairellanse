@@ -146,7 +146,7 @@ img {
     bottom: 0;
     position: absolute;
     content: "";
-    width: 150px;
+    width: 20%;
     margin: 2rem 0;
 }
 
@@ -160,7 +160,7 @@ img {
     position: absolute;
     content: "";
     height: 120%;
-    width: 150px;
+    width: 20%;
 }
 
 .products {
@@ -297,6 +297,22 @@ h4 {
 
 .before-after-page {
     padding: 2rem 10%
+}
+
+
+/********************* PAGINA CONTATO *********************/
+
+.contato input,
+.contato select,
+.contato textarea {
+    background-color: #EAEAEA !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.contato textarea {
+    height: 150px;
 }
 
 
