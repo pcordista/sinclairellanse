@@ -123,7 +123,7 @@ header("Etag: $etag");
                             </div>
                         </div>
                     </div>
-                    <img src="assets/img/perfectha.png" alt="">
+                    <img src="assets/img/ellanse.png" alt="">
                 </div>
                 <div>
                     <div class="split-screen twentytwenty-container row">

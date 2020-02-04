@@ -14,12 +14,13 @@ header("Etag: $etag");
     <img src="assets/img/contato.jpg" class="widthfull">
 </div>
 
-<div class="sectionStart representantes-intro faq">
+<div class="sectionStart representantes-intro faq icon-intro bolinhas relative">
     <div class="containerEighteen">
         <div class="intro black-text">
-            <h1>CONTATO</h1>
-            <P>Você tem alguma dúvida, crítica ou sugestão? </P>
-            <P>Entre em contato com a gente!</P>
+            <h1>FALE CONOSCO</h1>
+            <h3>Você tem alguma dúvida, crítica ou sugestão? <BR>
+Entre em contato com a gente!   </h3>
+            <P>0800 9413282   •   qualidadebr@sinclairpharma.com</P>
 
         </div>
     </div>

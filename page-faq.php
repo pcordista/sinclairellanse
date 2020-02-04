@@ -14,12 +14,15 @@ header("Etag: $etag");
         <img src="assets/img/banner-perfectha.jpg" class="widthfull">
     </div>
 
-    <div class="sectionStart representantes-intro faq">
+    <div class="sectionStart representantes-intro faq icon-intro bolinhas relative">
         <div class="containerEighteen">
-            <div class="intro">
-                <h1>FAQ</h1>
-                <h2>Ainda com dúvidas? Sem problemas!</h2>
-                <p>É normal que algumas dúvidas surjam durante a realização do procedimento com Perfectha. E estamos aqui para esclarecê-las! Confira as mais comuns:</p>
+            <div class="about-intro">
+                <div class="wrapper-apoio">
+                    <span class="small apoio">FAQ</span>
+                    <h1>PERGUNTAS FREQUENTES</h1>
+                    <h3>É normal que algumas dúvidas surjam durante a realização do procedimento com Ellansé. E estamos aqui para esclarecê-las!
+                        Confira as mais comuns: </h3>
+                </div>
             </div>
             <div class="margin_1_top faq-row">
                 <div class="col s12 m3 l3 faq-filter black-text">
@@ -117,7 +120,7 @@ header("Etag: $etag");
             CEP 05319-000 - São Paulo - SP - Brasil<BR>
             Telefone: +55 11 3641- 4447<BR>
             <a href="#">
-            veja no maps
+                veja no maps
             </a>
         </div>
     </div>

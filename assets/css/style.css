@@ -104,8 +104,10 @@ img {
     width: 25px;
 }
 
+
 .menu-redes i {
     font-size: 15px;
+    color: #052d8f !important
 }
 
 
@@ -250,6 +252,7 @@ h4 {
     right: 0;
     background-image: url('../img/before-after.jpg');
     z-index: -1;
+    background-size: contain;
 }
 
 .split-screen-content .containerEighteen {
@@ -334,6 +337,31 @@ h4 {
 
 .contato textarea {
     height: 150px;
+}
+
+.bolinhas::before {
+    background-image: url(../img/bolinhas.png);
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    content: '';
+    height: 500px;
+    width: 80px;
+    background-size: cover;
+    z-index: -1;
+}
+
+.icon-intro::after {
+    background-image: url(../img/bola.png);
+    transform: rotate(180deg);
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    content: '';
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    z-index: 10;
 }
 
 
@@ -537,6 +565,22 @@ footer {
 }
 
 
+/********************* PAGINA CONTATO *********************/
+
+.contato input,
+.contato select,
+.contato textarea {
+    background-color: #EAEAEA !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.contato textarea {
+    height: 150px;
+}
+
+
 /********************* INTRO  *********************/
 
 .about-intro .containerEighteen {
@@ -647,6 +691,7 @@ footer {
 .about-core .sobre-block-5 img {
     max-width: 450px;
     margin-left: 50px;
+    min-width: 250px;
 }
 
 .about-core .sobre-block-5 .about-core-text {
@@ -673,6 +718,31 @@ footer {
 
 
 /********************* FIND *********************/
+
+
+.find-intro::before {
+    background-image: url(../img/find-left.png);
+    position: absolute;
+    top: -100px;
+    left: 20px;
+    content: '';
+    height: 500px;
+    width: 80px;
+    background-size: cover;
+    z-index: -1;
+}
+
+.find-intro::after {
+    background-image: url(../img/find-right.png);
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    content: '';
+    height: 400px;
+    width: 400px;
+    background-size: 100% 100%;
+    z-index: 0;
+}
 
 .find-selects {
     border-top: 1px solid #707070;
@@ -982,13 +1052,20 @@ footer {
     text-align: left;
 }
 
-.representantes h3 {
-    font-weight: 700;
+.representantes-intro .small.apoio {
+    color: black !important;
+    top: 15px !important;
+    left: -6CH !important;
+}
+
+.representantes-intro h3 {
     color: black;
-    font-size: 18px;
-    text-align: center;
+    font-size: 26px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    line-height: 34px;
     margin-bottom: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .representantes select {

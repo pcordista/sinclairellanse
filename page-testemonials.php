@@ -98,10 +98,6 @@ header("Etag: $etag");
         </div>
     </div>
 </div>
-<div class="sectionStart speakers-prof find-profs center-align">
-    <img src="assets/img/speakers-prof.png" alt="">
-</div>
-
 
 
 <!-- Modal Structure -->
