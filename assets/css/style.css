@@ -82,7 +82,7 @@ img {
 
 .top-menu .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -93,6 +93,7 @@ img {
 .menu-redes {
     display: flex;
     flex-flow: row;
+    margin-right: 1rem;
 }
 
 .menu-redes > a{
@@ -104,12 +105,10 @@ img {
     width: 25px;
 }
 
-
 .menu-redes i {
     font-size: 15px;
     color: #052d8f !important
 }
-
 
 
 /********************* HOME-INTRO *********************/
