@@ -40,6 +40,25 @@ header("Etag: $etag");
     </div>
 </div>
 
+<div class="home-intro-mobile hide-on-med-and-up">
+    <img src="assets/img/intro-mobile.png" class="widthfull">
+    <div class="container">
+        <div class="home-intro-one white-text">
+            <h4>Ellansé pertence a uma nova geração <BR>
+                de produtos da Sinclair.</h4>
+            Com ação 2 em 1, é preenchedor e bioestimulador de colágeno, garantindo resultados imediatos e duradouros. Há 10 anos no mercado e presente em mais de 65 países, Ellansé chegou no Brasil em 2018 e já está conquistando os principais profissionais
+            do País. Com alta performance e segurança máxima, Ellansé tem garantido grande satisfação dos pacientes.
+        </div>
+        <div class="home-intro-two black-text">
+            Entre suas vantagens estão a correção de rugas e linhas de expressão, remodelação do contorno da face, sustentação e efeito lifting, volumização e estímulo do colágeno natural da pele.
+            A partir de 25 anos, o colágeno vai diminuindo e isso contribui
+            para o aparecimento de linhas de expressão e flacidez, então este
+            é o tratamento ideal para homens e mulheres que desejam retardar ao máximo o processo de envelhecimento.
+        </div>
+    </div>
+
+</div>
+
 <div class="home-products">
     <div class="title">
         <strong>Regenera naturalmente</strong> o volume da pele<BR>
